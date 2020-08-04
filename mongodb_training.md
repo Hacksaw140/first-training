@@ -1,4 +1,4 @@
-# Placeholder - Mongodb
+# Mongodb
 * This tutorial is written specifically for OSX.
 * Follow this tutorial to learn how to set up a Mongodb server on port 27017.
 
@@ -15,7 +15,7 @@
 * Create a directory in your place of choice to install mongodb. Since we are using Mac OSX we cannot install it at the root directory which it usually does at default. For example, create a directory at the base of your user directory called data. Then create a directory inside data called db.
 * In a terminal issue the command: cd /Users/"first.last@plex-llc.com"/data/db
 * Install mongodb using brew: brew tap mongodb/brew
-* Once installed run the command: mongod --dbpath /Users/'first.last@plex-llc.com'/data/db
+* Once installed run the command: mongod --dbpath /Users/"first.last@plex-llc.com"/data/db
 * Lastly, you may need to change the owner of the ‘mongod.lock’. If you get an error message saying permission denied, note the name of the file and issue the chown command to change the owner of the file to yourself instead of root. If an error message still persists, use the chmod 777 command on the file in question.
 
 # Start the Tutorial
