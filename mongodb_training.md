@@ -14,8 +14,8 @@
 * Install brew if you haven’t. The command is:  
 ``` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" ```
 * Create a directory in your place of choice to install mongodb. Since we are using Mac OSX we cannot install it at the root directory which it usually does at default. For example, create a directory at the base of your user directory called data. Then create a directory inside data called db.
-* In a terminal issue the command: cd 
-``` /Users/"first.last@plex-llc.com"/data/db ```
+* In a terminal issue the command: 
+``` cd /Users/"first.last@plex-llc.com"/data/db ```
 * Install mongodb using brew: brew tap mongodb/brew
 * Once installed run the command: 
 ``` mongod --dbpath /Users/"first.last@plex-llc.com"/data/db ```
